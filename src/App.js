@@ -1,5 +1,5 @@
-import logo from './logo.svg';
-import './App.css';
+import logo from "./logo.svg";
+import "./App.css";
 
 function App() {
   return (
@@ -17,6 +17,10 @@ function App() {
         >
           Learn React
         </a>
+        <form>
+          <input type="text" placeholder="-> email"></input>
+          <input type="button" value="get access"></input>
+        </form>
       </header>
     </div>
   );
